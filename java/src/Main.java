@@ -11,7 +11,14 @@ public class Main {
 	double y = gen_double.getObj();
 
 	System.out.println("Result: " + (x + y));
+        
+	System.out.println("testing...");
 
+	Test test = new Test(gen_int);
+	Test test_2 = new Test(gen_double);
+
+	test.test();
+	test_2.test();
 
 	}
 }
