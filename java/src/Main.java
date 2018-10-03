@@ -14,11 +14,10 @@ public class Main {
         
 	System.out.println("testing...");
 
-	Test test = new Test(gen_int);
-	Test test_2 = new Test(gen_double);
+	Test test = new Test();
 
-	test.test();
-	test_2.test();
+	test.test(gen_int, gen_double);
+	
 
 	}
 }
